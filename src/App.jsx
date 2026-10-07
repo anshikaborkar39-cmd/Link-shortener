@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/shorten?url=${encodeURIComponent(url)}`,
+       `https://link-shortener-5xh7.onrender.com/shorten?url=${encodeURIComponent(url)}`,
         {
           method: "POST",
         }

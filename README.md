@@ -69,8 +69,12 @@ PostgreSQL is used to store the original URLs and generated short codes.
 
 🔐 Security
 
-Database credentials are stored in a .env file and excluded from GitHub using .gitignore.
+## 🌐 Live Demo
+
+- Frontend: https://linkly-tsg0.onrender.com
+- Backend API: https://link-shortener-5xh7.onrender.com
 
 👩‍💻 Author
 
 Anshika Borkar
+

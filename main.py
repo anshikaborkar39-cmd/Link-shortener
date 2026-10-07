@@ -60,7 +60,8 @@ def shorten_url(url: str):
 
         return {
             "original_url": url,
-            "short_url": f"http://127.0.0.1:8000/{short_code}"
+            "short_url": f"https://link-shortener-5xh7.onrender.com/{short_code}"
+        
         }
 
     except Exception as e:
